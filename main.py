@@ -31,7 +31,7 @@ if url != '':
             with open(video_path, 'rb') as f:
                 video_bytes = f.read()
             b64_video = base64.b64encode(video_bytes).decode()
-            st.markdown(f'<button href="data:video/mp4;base64,{b64_video}" download="{yt.title}.mp4" class= "download-button">Save to system</button>', unsafe_allow_html=True)
+            st.markdown(f'<a href="data:video/mp4;base64,{b64_video}" download="{yt.title}.mp4" class= "download-button">Save to system</a>', unsafe_allow_html=True)
             st.markdown(
                 """
 <style>
