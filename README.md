@@ -2,7 +2,7 @@
 
 
 ## Overview
-A web app bulit with streamlit that helps you to download youtube videos at highest quality using pytube. ***For educational purpose only***
+A web app built with streamlit that helps you to download youtube videos at highest quality using pytube. ***For educational purpose only***
 
 
 
